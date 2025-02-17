@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Set up Google API
-genai.configure(api_key="AIzaSyDLadyyfhIt832oepD3D4jGQlI5v_1KThQ")
+genai.configure(api_key="xxxxxxxxxxxxxx")
 
 def review_code(user_code):
     """Send the user's code to Google AI's PaLM API for bug detection and fixes"""
